@@ -15,7 +15,9 @@ body {
 .pimage1,
 .pimage2,
 .pimage3,
-.pimage4 {
+.pimage4,
+.pimage5,
+.pimage6 {
   position: relative;
   background-position: center;
   background-size: cover;
@@ -43,7 +45,22 @@ body {
   min-height: 400px;
 }
 
-.imagetext1 {
+.pimage5 {
+  background-image: url(image5.jpg);
+  min-height: 400px;
+}
+
+.pimage6 {
+  background-image: url(image6.jpg);
+  min-height: 400px;
+}
+
+.imagetext1,
+.imagetext2,
+.imagetext3,
+.imagetext4,
+.imagetext5,
+.imagetext6 {
   position: absolute;
   top: 50%;
   width: 100%;
@@ -54,127 +71,63 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-  .imagetext1 {
+  .imagetext1,
+  .imagetext2 {
     font-size: inherit;
   }
-
-  .imagetext2 {
-    font-size: inherit !important;
-  }
 }
 
-@media screen and (max-width: 768px) {
-  
-}
-
-.text1 {
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6 {
   background-color: #313534;
   color: white;
   padding: 20px;
   border-radius: 20px;
 }
 
-.imagetext2 {
-  position: absolute;
-  top: 50%;
-  width: 100%;
+.section1,
+.section2,
+.section3,
+.section4,
+.section5,
+.section6 {
   text-align: center;
-  color: black;
-  font-size: 30px;
-  letter-spacing: 3px;
-}
-
-.text2 {
-  background-color: #313534;
+  padding: 60px 20px;
   color: white;
-  padding: 20px;
-  border-radius: 20px;
-}
-
-.imagetext3 {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: black;
-  font-size: 30px;
-  letter-spacing: 3px;
-}
-
-.text3 {
-  background-color: #313534;
-  color: white;
-  padding: 20px;
-  border-radius: 20px;
-}
-
-.imagetext4 {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: black;
-  font-size: 30px;
-  letter-spacing: 3px;
-}
-
-.text4 {
-  background-color: #313534;
-  color: white;
-  padding: 20px;
-  border-radius: 20px;
 }
 
 .section1 {
-  text-align: center;
-  padding: 60px 20px;
   background-color: #032c57d6;
-  color: white;
+}
+
+.section2 {
+  background-color: #024f3b;
+}
+
+.section3 {
+  background-color: #0a4e59;
+}
+
+.section4 {
+  background-color: #313534;
+}
+
+.section5 {
+  background-color: #800080;
+}
+
+.section6 {
+  background-color: #008080;
+}
+
+h3 {
+  font-size: 30px;
 }
 
 p {
   padding: 10px;
-}
-
-.section2 {
-  text-align: center;
-}
-
-.section3 {
-  text-align: center;
-}
-
-.section4 {
-  text-align: center;
-}
-
-.section1 h3,
-.section2 h3,
-.section3 h3,
-.section4 h3 {
-  color: white;
-  font-size: 30px;
-
-}
-
-.section2 {
-  text-align: center;
-  padding: 60px 20px;
-  background-color: #024f3b;
-  ;
-  color: white;
-}
-
-.section3 {
-  text-align: center;
-  padding: 60px 20px;
-  background-color: #0a4e59;
-  color: white;
-}
-
-.section4 {
-  text-align: center;
-  padding: 60px 20px;
-  background-color: #313534;
-  color: white;
 }
